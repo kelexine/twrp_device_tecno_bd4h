@@ -9,15 +9,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TECNO-BD4h device
-$(call inherit-product, device/tecno/TECNO-BD4h/device.mk)
+$(call inherit-product, device/tecno/BD4h/device.mk)
 
-PRODUCT_DEVICE := TECNO-BD4h
-PRODUCT_NAME := omni_TECNO-BD4h
+PRODUCT_DEVICE := BD4h
+PRODUCT_NAME := twrp_BD4h
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO BD4h
+PRODUCT_MODEL := TECNO POP 5 Pro
 PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
