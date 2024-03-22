@@ -1,4 +1,4 @@
-# Android device tree for TECNO TECNO BD4h (TECNO-BD4h)
+# Android device tree for TECNO POP 5 PRO (BD4h)
 
 ```
 #
